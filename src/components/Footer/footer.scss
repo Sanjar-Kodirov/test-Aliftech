@@ -1,0 +1,35 @@
+.footer {
+  padding: 8rem 0;
+  position: relative;
+  height: 378px;
+  background: url(../../assets/footer.png) no-repeat center center/cover;
+  &-content {
+    h2 {
+      font-family: Oxygen;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 30px;
+      /* identical to box height, or 120% */
+      text-align: center;
+      color: #efefef;
+    }
+    .line {
+      background: #dedede;
+      border-radius: 0px;
+      width: 300px;
+      height: 4px;
+    }
+  }
+}
+
+.navfooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 2;
+  background: rgba(35, 47, 56, 0.6);
+}

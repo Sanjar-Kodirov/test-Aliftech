@@ -1,0 +1,52 @@
+.search-cont {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+//--------------------------
+// input classes
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+$default: #b2bec3;
+$primary: #0984e3;
+$white: #fff;
+
+$fontColor: #f7f7f7;
+$fontColorDark: #2d3436;
+$fontSize: 16px;
+
+@mixin input-border($color: $default) {
+  border: solid 1px $color;
+}
+
+@mixin input-border-focus($color: $default) {
+  border: solid 1px $color;
+  box-shadow: 0 0 3px $color;
+}
+
+.input {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: $fontSize;
+  font-weight: normal;
+  outline: none;
+  padding: 0.45em;
+  border-radius: 0.2em;
+  background-color: $white;
+  color: $fontColorDark;
+  width: 50%;
+  margin: 2rem auto;
+  line-height: 1.4em;
+  transition: all 0.3s ease;
+  @include input-border();
+
+  &:focus {
+    @include input-border-focus();
+  }
+
+  &.primary {
+    @include input-border($primary);
+    &:focus {
+      @include input-border-focus($primary);
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.posts {
+  text-align: center;
+  padding: 5rem 0;
+
+  h2 {
+    width: max-content;
+    padding: 1rem;
+    margin: auto;
+    font-family: $font-secondary;
+    color: $color-black;
+    font-size: $font-20;
+    border-bottom: 2px solid #dedede;
+  }
+}
+.posts-container {
+  padding: 2.2rem 0;
+}

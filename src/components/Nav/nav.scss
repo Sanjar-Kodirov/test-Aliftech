@@ -1,0 +1,27 @@
+.nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  position: absolute;
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      a {
+        padding: 4rem;
+        font-size: $font-12;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+  span {
+    font-size: $font-26;
+    color: $color-white;
+  }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}

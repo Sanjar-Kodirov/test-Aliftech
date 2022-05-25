@@ -1,0 +1,26 @@
+header {
+  color: $color-white;
+  background: url(../../assets/header-img.png) no-repeat center center/cover;
+}
+.header {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header--content_title {
+  font-size: $font-50;
+  font-family: $font-primary;
+  line-height: 5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+}
+.header--content_subTitle {
+  font-family: $font-secondary;
+  font-size: $font-17;
+  font-weight: normal;
+  color: $color-grey-dark;
+  margin-bottom: 3rem;
+}

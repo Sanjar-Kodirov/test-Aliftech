@@ -1,0 +1,18 @@
+@import './bootstrap-grid.css';
+
+@import './abstracts/_mixins.scss';
+@import './abstracts/_variables.scss';
+
+@import './base/_base.scss';
+@import './base/_typography.scss';
+
+@import './../components/Nav/nav.scss';
+@import './../components/Header/header.scss';
+@import './../components/Posts/posts.scss';
+@import './../components/Card/card.scss';
+@import './../components/Modal/Modal.scss';
+@import './../components/Footer/footer.scss';
+@import '../components/Search/search.scss';
+@import '../pages/Home/home.scss';
+
+@import './app.scss';
